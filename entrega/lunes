@@ -9,3 +9,21 @@ else:
 
 print("El numero mayor es : "+mayor)
 
+if error==400:
+    print("400")
+elif error==401:
+    print("401")
+elif error = 500:
+    print("500")
+else:
+    print("error nuevo")
+
+match error:
+    case 400:
+        print("400")
+    case 401:
+        print("401")
+    case 600|400|300:
+        print("otros errores")
+    case _:
+        print("no existe ese error")
