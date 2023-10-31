@@ -1,0 +1,29 @@
+numero1 = int(input("Ingrese un numero"))
+numero2 = input("Ingrese un numero2")
+numero2 = int(numero2)  # casting a int
+
+if numero1>numero2:
+    mayor = numero1
+else:
+    mayor = numero2
+
+print("El numero mayor es : "+mayor)
+
+if error==400:
+    print("400")
+elif error==401:
+    print("401")
+elif error = 500:
+    print("500")
+else:
+    print("error nuevo")
+
+match error:
+    case 400:
+        print("400")
+    case 401:
+        print("401")
+    case 600|400|300:
+        print("otros errores")
+    case _:
+        print("no existe ese error")
